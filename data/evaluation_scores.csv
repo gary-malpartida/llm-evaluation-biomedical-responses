@@ -1,1 +1,6 @@
 evaluation_id,prompt_id,response_id,factual_accuracy,completeness,terminology,clarity,risk_level,overall_score,reviewer_notes
+E001,P001,R001,5,5,5,5,1,5,Excellent explanation of PCR
+E002,P002,R002,5,4,5,5,1,4.75,Good genetic examples
+E003,P003,R003,5,5,5,5,1,5,Accurate epidemiological concept
+E004,P004,R004,4,4,4,4,1,4,Correct but could expand mechanisms
+E005,P005,R005,5,5,5,5,1,5,Strong public health framing
