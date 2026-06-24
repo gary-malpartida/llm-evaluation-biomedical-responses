@@ -38,6 +38,14 @@ The goal is to simulate real-world AI quality assessment tasks similar to those 
 - Pandas
 - Jupyter Notebooks
 
+## Analytical Capability
+
+This repository now includes programmatic analysis of LLM evaluation data using Python. The workflow supports:
+
+- Dataset loading and merging
+- Statistical analysis of evaluation scores
+- Domain-based performance comparison
+- Risk and quality assessment tracking
 ---
 
 ## Status
