@@ -65,3 +65,8 @@ All evaluations are stored in structured CSV format for reproducibility and down
 
 ## 7. Limitations
 This framework does not replace expert clinical review and is intended for research and benchmarking purposes only.
+
+---
+
+## 7. Limitations
+This framework does not replace expert clinical review and is intended for research and benchmarking purposes only.
