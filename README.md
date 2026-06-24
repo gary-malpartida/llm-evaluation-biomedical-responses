@@ -1,52 +1,48 @@
-# LLM Evaluation Framework for Biomedical Responses
+# LLM Evaluation Framework (Biomedical Domain)
 
 ## Overview
-This repository implements a structured evaluation framework for assessing large language model outputs in biomedical, molecular biology, genetics, and public health domains.
+This project implements a structured framework for evaluating large language model outputs in biomedical and life sciences domains.
 
-The goal is to simulate real-world AI quality assessment tasks similar to those used in LLM evaluation and alignment workflows.
-
----
-
-## Objectives
-- Evaluate biomedical LLM-generated responses using structured rubrics
-- Identify factual, conceptual, and terminology-related errors
-- Score outputs using standardized criteria
-- Build reproducible evaluation datasets for model benchmarking
+It combines:
+- Dataset design
+- Evaluation methodology
+- Scoring system
+- Programmatic analysis
 
 ---
 
-## Dataset Structure
+## Key Components
 
-- `data/prompts.csv` → Biomedical prompts across domains
-- `data/model_responses.csv` → LLM-generated responses
-- `data/evaluation_scores.csv` → Human-like evaluation scoring
+### Data
+Structured datasets for evaluation:
+- prompts.csv → biomedical questions
+- model_responses.csv → LLM outputs
+- evaluation_scores.csv → annotated scores
+
+### Methodology
+Defined in `METHODOLOGY.md`, including:
+- multi-dimensional scoring
+- risk assessment
+- reproducible evaluation workflow
+
+### Analysis
+Python-based scripts for:
+- dataset merging
+- statistical summaries
+- performance analysis
 
 ---
 
-## Evaluation Dimensions
-
-- Factual Accuracy
-- Completeness
-- Terminology Precision
-- Scientific Clarity
-- Risk / Safety Considerations
-
----
-
-## Tools
+## Tech Stack
 - Python
 - Pandas
 - Jupyter Notebooks
 
-## Analytical Capability
-
-This repository now includes programmatic analysis of LLM evaluation data using Python. The workflow supports:
-
-- Dataset loading and merging
-- Statistical analysis of evaluation scores
-- Domain-based performance comparison
-- Risk and quality assessment tracking
 ---
 
-## Status
-Project initialization completed. Dataset and evaluation framework in development.
+## Purpose
+This repository demonstrates skills in:
+- AI evaluation workflows
+- Biomedical domain understanding
+- Data structuring and analysis
+- LLM assessment methodologies
