@@ -1,1 +1,6 @@
 response_id,prompt_id,model_name,response_text
+R001,P001,GPT-4,"PCR is a laboratory technique used to amplify DNA sequences exponentially through thermal cycling involving denaturation, annealing, and extension steps..."
+R002,P002,GPT-4,"Mutations are changes in DNA sequence that can lead to genetic disorders such as cystic fibrosis or sickle cell anemia..."
+R003,P003,GPT-4,"R0 represents the average number of secondary infections produced by one infected individual in a fully susceptible population..."
+R004,P004,GPT-4,"Competitive inhibition occurs when an inhibitor binds to the active site of an enzyme..."
+R005,P005,GPT-4,"Key outbreak control strategies include vaccination, isolation, contact tracing, and public health communication..."
