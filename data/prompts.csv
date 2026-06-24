@@ -1,1 +1,6 @@
 prompt_id,domain,question
+P001,molecular_biology,Explain how PCR amplification works and its main applications in diagnostics.
+P002,genetics,Describe the role of mutations in genetic diseases and give examples.
+P003,epidemiology,How is the basic reproduction number (R0) used in infectious disease modeling?
+P004,biochemistry,Explain enzyme inhibition and differentiate between competitive and non-competitive inhibition.
+P005,public_health,What are the key strategies for controlling a viral outbreak in urban populations?
