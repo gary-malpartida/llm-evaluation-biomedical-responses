@@ -23,3 +23,20 @@ print(df[dimensions].mean())
 
 print("\n=== Risk Level Distribution ===")
 print(df["risk_level"].value_counts())
+
+# Generate Markdown summary report
+with open("results/summary.md", "w", encoding="utf-8") as report:
+    report.write("# Biomedical LLM Evaluation Summary\n\n")
+    report.write(f"**Total responses evaluated:** {len(df)}\n\n")
+    report.write(f"**Average overall score:** {df['overall_score'].mean():.2f}\n\n")
+
+    report.write("## Average Score by Domain\n\n")
+    domain_scores = df.groupby("domain")["overall_score"].mean()
+
+    for domain, score in domain_scores.items():
+        report.write(f"- {domain}: {score:.2f}\n")
+
+    report.write("\n## Average by Evaluation Dimension\n\n")
+
+    for dimension in dimensions:
+        report.write(f"- {dimension}: {df[dimension].mean():.2f}\n")
