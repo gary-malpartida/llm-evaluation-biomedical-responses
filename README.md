@@ -88,7 +88,19 @@ The analysis evaluates generated responses based on key biomedical criteria:
 
 ![Biomedical LLM Evaluation Scores](results/evaluation_scores_distribution.png)
 
-
+---
 ### Model Comparison Analysis
 
 ![Biomedical LLM Model Comparison](results/model_comparison_analysis.png)
+
+---
+
+### Interpretation of Results
+
+The evaluation indicates that the assessed biomedical LLM responses achieved high performance across the evaluated criteria.
+
+- Scientific Accuracy showed strong performance, indicating that responses were generally aligned with biomedical concepts.
+- Safety received the highest score, reflecting the importance of avoiding misleading or potentially harmful biomedical information.
+- Completeness and Relevance scores indicate that responses provided adequate coverage and context for biomedical questions.
+
+The model comparison analysis demonstrates differences in scientific accuracy performance between evaluated models, highlighting the importance of systematic evaluation frameworks for biomedical AI applications.
