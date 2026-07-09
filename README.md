@@ -1,14 +1,28 @@
-# LLM Evaluation Framework (Biomedical Domain)
+# Biomedical LLM Evaluation Framework
 
-## Overview
-This project implements a structured framework for evaluating large language model outputs in biomedical and life sciences domains.
+## Project Overview
 
-It combines:
-- Dataset design
-- Evaluation methodology
-- Scoring system
-- Programmatic analysis
+This repository presents a structured framework for evaluating Large Language Model (LLM) responses in biomedical and life sciences domains.
 
+The project demonstrates a reproducible workflow for assessing AI-generated responses using domain-specific prompts, standardized evaluation criteria, and automated analysis using Python.
+
+The evaluation focuses on five core quality dimensions:
+
+- Factual Accuracy
+- Completeness
+- Scientific Terminology
+- Clarity
+- Risk Assessment
+
+## Objectives
+
+This project aims to:
+
+- Develop a structured workflow for evaluating biomedical LLM responses.
+- Apply standardized quality criteria across multiple biomedical domains.
+- Demonstrate reproducible AI evaluation using structured datasets.
+- Automate evaluation summaries through Python-based analysis.
+- Showcase best practices for documenting AI assessment projects.
 ---
 
 ## Key Components
@@ -40,9 +54,41 @@ Python-based scripts for:
 
 ---
 
+## Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+- Biomedical AI evaluation and quality assessment.
+- Scientific data organization and annotation.
+- Python programming for data analysis and workflow automation.
+- Reproducible research practices and technical documentation.
+- Application of standardized evaluation criteria to LLM-generated responses.
+- Structured project organization using Git and GitHub.
+---
+
 ## Purpose
 This repository demonstrates skills in:
 - AI evaluation workflows
 - Biomedical domain understanding
 - Data structuring and analysis
 - LLM assessment methodologies
+
+## Results and Visualization
+
+This project includes quantitative evaluation and visualization of biomedical Large Language Model (LLM) responses using Python and Matplotlib.
+
+The analysis evaluates generated responses based on key biomedical criteria:
+
+- Scientific Accuracy
+- Completeness
+- Safety
+- Relevance
+
+### Evaluation Score Distribution
+
+![Biomedical LLM Evaluation Scores](results/evaluation_scores_distribution.png)
+
+
+### Model Comparison Analysis
+
+![Biomedical LLM Model Comparison](results/model_comparison_analysis.png)
