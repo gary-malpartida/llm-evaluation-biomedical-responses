@@ -35,7 +35,7 @@ Structured datasets for evaluation:
 
 ### Methodology
 Defined in `METHODOLOGY.md`, including:
-- multi-dimensional scoring
+- multi-dimensional scoring rubric
 - risk assessment
 - reproducible evaluation workflow
 
@@ -66,12 +66,13 @@ This project demonstrates practical experience in:
 - Structured project organization using Git and GitHub.
 ---
 
-## Purpose
-This repository demonstrates skills in:
-- AI evaluation workflows
-- Biomedical domain understanding
-- Data structuring and analysis
-- LLM assessment methodologies
+## Professional Applications
+
+This workflow is relevant for:
+- AI response evaluation in biomedical domains.
+- Healthcare AI quality assessment.
+- Research-oriented LLM validation workflows.
+- Biomedical dataset annotation and review processes.
 
 ## Results and Visualization
 
